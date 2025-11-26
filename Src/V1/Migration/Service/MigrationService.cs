@@ -1,8 +1,8 @@
-using MarkItDoneApi.Src.Infra.Data;
-using MarkItDoneApi.Src.V1.Core.DomainExceptions;
+using MarkItDoneApi.Infra.Data;
+using MarkItDoneApi.V1.Core.DomainExceptions;
 using Microsoft.EntityFrameworkCore;
 
-namespace MarkItDoneApi.Src.V1.Migration.Service;
+namespace MarkItDoneApi.V1.Migration.Service;
 
 public class MigrationService
 {

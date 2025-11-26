@@ -1,4 +1,4 @@
-namespace MarkItDoneApi.Src.V1.Session.Entity;
+namespace MarkItDoneApi.V1.Session.Entity;
 
 public class SessionEntity
 {

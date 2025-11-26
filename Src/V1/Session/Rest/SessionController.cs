@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using MarkItDoneApi.Src.V1.Session.Service;
-using MarkItDoneApi.Src.V1.Session.Rest.DTO;
-using MarkItDoneApi.Src.V1.Email;
-using MarkItDoneApi.Src.V1.Email.DTO;
+using MarkItDoneApi.V1.Email;
+using MarkItDoneApi.V1.Email.DTO;
+using MarkItDoneApi.V1.Session.Rest.DTO;
+using MarkItDoneApi.V1.Session.Service;
 
-namespace MarkItDoneApi.Src.V1.Session.Rest;
+namespace MarkItDoneApi.V1.Session.Rest;
 
 [ApiController]
 [Route("api/v1/sessions")]

@@ -1,8 +1,8 @@
-using MarkItDoneApi.Src.V1.Session.Entity;
-using MarkItDoneApi.Src.V1.User.Entity;
+using MarkItDoneApi.V1.Session.Entity;
+using MarkItDoneApi.V1.User.Entity;
 using Microsoft.EntityFrameworkCore;
 
-namespace MarkItDoneApi.Src.Infra.Data
+namespace MarkItDoneApi.Infra.Data
 {
   public class DatabaseContext(DbContextOptions<DatabaseContext> options) : DbContext(options)
   {

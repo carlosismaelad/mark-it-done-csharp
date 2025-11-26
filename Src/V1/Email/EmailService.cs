@@ -1,8 +1,8 @@
 using MailKit.Net.Smtp;
 using MimeKit;
-using MarkItDoneApi.Src.V1.Email.DTO;
+using MarkItDoneApi.V1.Email.DTO;
 
-namespace MarkItDoneApi.Src.V1.Email;
+namespace MarkItDoneApi.V1.Email;
 
 public class EmailService
 {

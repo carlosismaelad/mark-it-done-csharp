@@ -1,8 +1,8 @@
-using MarkItDoneApi.Src.V1.Core.DomainExceptions;
-using MarkItDoneApi.Src.V1.User.Rest.DTO;
 using System.Text.RegularExpressions;
+using MarkItDoneApi.V1.Core.DomainExceptions;
+using MarkItDoneApi.V1.User.Rest.DTO;
 
-namespace MarkItDoneApi.Src.V1.User.UserUtils;
+namespace MarkItDoneApi.V1.User.UserUtils;
 
 public static class UserValidation
 {
