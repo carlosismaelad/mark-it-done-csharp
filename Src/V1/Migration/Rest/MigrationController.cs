@@ -1,7 +1,7 @@
-using MarkItDoneApi.Src.V1.Migration.Service;
+using MarkItDoneApi.V1.Migration.Service;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MarkItDoneApi.Src.V1.Migration.Rest;
+namespace MarkItDoneApi.V1.Migration.Rest;
 
 [ApiController]
 [Route("api/v1/migrations")]

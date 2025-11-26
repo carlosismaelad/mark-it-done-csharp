@@ -1,4 +1,4 @@
-namespace MarkItDoneApi.Src.V1.Core.DomainExceptions;
+namespace MarkItDoneApi.V1.Core.DomainExceptions;
 
 public class UnauthorizedException : Exception
 {

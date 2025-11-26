@@ -1,6 +1,6 @@
-using MarkItDoneApi.Src.V1.Core.DomainExceptions;
+using MarkItDoneApi.V1.Core.DomainExceptions;
 
-namespace MarkItDoneApi.Src.V1.Core.Middleware;
+namespace MarkItDoneApi.V1.Core.Middleware;
 
 public class ExceptionHandlingMiddleware
 {

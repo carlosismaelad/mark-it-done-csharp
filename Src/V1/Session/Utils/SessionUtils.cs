@@ -1,6 +1,6 @@
 using System.Security.Cryptography;
 
-namespace MarkItDoneApi.Src.V1.Session.Utils;
+namespace MarkItDoneApi.V1.Session.Utils;
 
 public static class SessionUtils
 {

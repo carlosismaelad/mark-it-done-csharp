@@ -1,8 +1,8 @@
 using System.Data;
-using MarkItDoneApi.Src.V1.Core.DomainExceptions;
+using MarkItDoneApi.V1.Core.DomainExceptions;
 using Npgsql;
 
-namespace MarkItDoneApi.Src.Infra.Data;
+namespace MarkItDoneApi.Infra.Data;
 
 public interface IConnectionFactory
 {

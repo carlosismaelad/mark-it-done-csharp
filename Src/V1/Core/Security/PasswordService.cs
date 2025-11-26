@@ -1,4 +1,4 @@
-namespace MarkItDoneApi.Src.V1.Core.Security;
+namespace MarkItDoneApi.V1.Core.Security;
 
 public static class PasswordService
 {

@@ -1,11 +1,11 @@
 using System.Text.RegularExpressions;
 using Dapper;
-using MarkItDoneApi.Src.Infra.Data;
-using MarkItDoneApi.Src.V1.Session.Entity;
-using MarkItDoneApi.Src.V1.Session.Utils;
-using MarkItDoneApi.Src.V1.Core.DomainExceptions;
+using MarkItDoneApi.Infra.Data;
+using MarkItDoneApi.V1.Core.DomainExceptions;
+using MarkItDoneApi.V1.Session.Entity;
+using MarkItDoneApi.V1.Session.Utils;
 
-namespace MarkItDoneApi.Src.V1.Session.Repository;
+namespace MarkItDoneApi.V1.Session.Repository;
 
 public class SessionRepository
 {

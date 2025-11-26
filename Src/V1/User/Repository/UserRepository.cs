@@ -1,10 +1,10 @@
-using MarkItDoneApi.Src.V1.User.Entity;
-using MarkItDoneApi.Src.V1.User.Rest.DTO;
-using MarkItDoneApi.Src.V1.Core.DomainExceptions;
-using MarkItDoneApi.Src.Infra.Data;
 using Dapper;
+using MarkItDoneApi.Infra.Data;
+using MarkItDoneApi.V1.Core.DomainExceptions;
+using MarkItDoneApi.V1.User.Entity;
+using MarkItDoneApi.V1.User.Rest.DTO;
 
-namespace MarkItDoneApi.Src.V1.User.Repository;
+namespace MarkItDoneApi.V1.User.Repository;
 
 public class UserRepository
 {

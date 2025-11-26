@@ -1,11 +1,11 @@
-using MarkItDoneApi.Src.V1.User.Entity;
-using MarkItDoneApi.Src.V1.User.Repository;
-using MarkItDoneApi.Src.V1.Core.Security;
-using MarkItDoneApi.Src.V1.Core.DomainExceptions;
-using MarkItDoneApi.Src.V1.Session.Repository;
-using MarkItDoneApi.Src.V1.Session.Entity;
+using MarkItDoneApi.V1.Core.DomainExceptions;
+using MarkItDoneApi.V1.Core.Security;
+using MarkItDoneApi.V1.Session.Entity;
+using MarkItDoneApi.V1.Session.Repository;
+using MarkItDoneApi.V1.User.Entity;
+using MarkItDoneApi.V1.User.Repository;
 
-namespace MarkItDoneApi.Src.V1.Session.Service;
+namespace MarkItDoneApi.V1.Session.Service;
 
 public class SessionService
 {

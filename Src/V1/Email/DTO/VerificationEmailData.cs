@@ -1,3 +1,3 @@
-namespace MarkItDoneApi.Src.V1.Email.DTO;
+namespace MarkItDoneApi.V1.Email.DTO;
 
 public record VerificationEmailData(string Username, string Code, string ToEmail);

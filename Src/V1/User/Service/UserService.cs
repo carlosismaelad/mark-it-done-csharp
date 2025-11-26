@@ -1,9 +1,9 @@
-using MarkItDoneApi.Src.V1.User.Repository;
-using MarkItDoneApi.Src.V1.User.Rest.DTO;
-using MarkItDoneApi.Src.V1.Core.Security;
-using MarkItDoneApi.Src.V1.User.Entity;
+using MarkItDoneApi.V1.Core.Security;
+using MarkItDoneApi.V1.User.Entity;
+using MarkItDoneApi.V1.User.Repository;
+using MarkItDoneApi.V1.User.Rest.DTO;
 
-namespace MarkItDoneApi.Src.V1.User.Service;
+namespace MarkItDoneApi.V1.User.Service;
 
 public class UserService
 {

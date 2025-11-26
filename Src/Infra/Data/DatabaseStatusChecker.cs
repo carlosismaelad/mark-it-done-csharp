@@ -1,6 +1,6 @@
 using Npgsql;
 
-namespace MarkItDoneApi.Src.Infra.Data;
+namespace MarkItDoneApi.Infra.Data;
 
 public class DatabaseStatusChecker
 {

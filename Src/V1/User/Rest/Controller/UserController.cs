@@ -1,10 +1,10 @@
-using MarkItDoneApi.Src.V1.User.Repository;
-using MarkItDoneApi.Src.V1.User.Rest.DTO;
-using MarkItDoneApi.Src.V1.User.Service;
-using MarkItDoneApi.Src.V1.User.UserUtils;
+using MarkItDoneApi.V1.User.Repository;
+using MarkItDoneApi.V1.User.Rest.DTO;
+using MarkItDoneApi.V1.User.Service;
+using MarkItDoneApi.V1.User.UserUtils;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MarkItDoneApi.Src.V1.User.Rest.Controller;
+namespace MarkItDoneApi.V1.User.Rest.Controller;
 
 [ApiController]
 [Route("api/v1/users")]
