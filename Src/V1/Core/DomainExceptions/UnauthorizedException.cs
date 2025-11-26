@@ -19,7 +19,7 @@ public class UnauthorizedException : Exception
     {
         return new
         {
-            Name = nameof(UnauthorizedException),
+            Name = "UnauthorizedException",
             Message = Message,
             Action = Action,
             StatusCode = StatusCode
