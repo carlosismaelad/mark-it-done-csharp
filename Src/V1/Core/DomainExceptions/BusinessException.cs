@@ -1,19 +1,15 @@
 namespace MarkItDoneApi.V1.Core.DomainExceptions;
 
-public class BusinessException : Exception
+public class BusinessException(
+    
+    string? message = null,
+    string? action = null,
+    int statusCode = 400,
+    Exception? innerException = null)
+    : Exception(message ?? "Ocorreu um erro de validação dos dados.", innerException)
 {
-    public string Action { get; set; }
-    public int StatusCode { get; set; }
-    
-    public BusinessException(string message) : this(message, null, 400, null)
-    {
-    }
-    
-    public BusinessException(string? message = null, string? action = null, int statusCode = 400, Exception? innerException = null) : base(message ?? "Um erro de validação ocorreu.", innerException)
-    {
-        Action = action ?? "Ajuste os dados enviados e tente novamente.";
-        StatusCode = statusCode;
-    }
+    private string Action { get; set; } = action ?? "Ajuste os dados enviados e tente novamente.";
+    public int StatusCode { get; set; } = statusCode;
 
     public object ToJson()
     {
