@@ -21,7 +21,7 @@ builder.Services.AddControllers();
 // Configure JSON options for camelCase naming
 builder.Services.ConfigureHttpJsonOptions(options =>
 {
-    options.SerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+    options.SerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower;
 });
 
 // Configure Entity Framework for migrations only
